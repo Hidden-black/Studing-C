@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define inch_per_pound 166
 
 int main(void)
 {
@@ -13,10 +14,11 @@ int main(void)
     printf("Height: ");
     scanf("%d", &height);
 
-
     volume = lenght*breadth*height;
-    weight = (volume+165)/166;
+    weight = (volume+inch_per_pound-1) / inch_per_pound;
 
     printf("Volume (cubic cm): %d\n", volume);
     printf("Weight: %d\n", weight);
+
+    return 0;
 }
