@@ -5,14 +5,14 @@
 
 int main(void)
 {
-    float faren, cels;
+    float cels, cels;
 
 
     printf("----Fahrenheit To Celsius----\n");
     printf("Enter Temp in Fahrenheit: ");
-    scanf("%f", &faren);
+    scanf("%f", &cels);
 
-    cels = (faren - f_point)*multiply;
+    cels = (cels - f_point)*multiply;
 
     printf("Temp in Celsius: %.1f\n", cels);
     return 0;
