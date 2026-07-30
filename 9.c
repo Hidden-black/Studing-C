@@ -2,7 +2,7 @@
  
 int main(){
     
-    int num = 100000;
+    int num = 1000000;
 
     while(num >= 1){
         num -= 1;
