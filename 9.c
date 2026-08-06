@@ -2,11 +2,11 @@
  
 int main(){
     
-    long int num = 10000;
+    int num = 10000;
 
     while(num >= 1){
         num -= 1;
-        // printf("%d\n",num);
+        printf("%d\n",num);
     }
 
     return 0;
