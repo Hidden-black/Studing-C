@@ -1,4 +1,1 @@
 # Studing C
-
----
-hmmm
