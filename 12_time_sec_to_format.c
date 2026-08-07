@@ -17,10 +17,10 @@ int main(void){
     while(tmin>59){
         tmin = tmin-60;
         thrs++;
-        printf("%2.f hrs", thrs);
     }
 
-    printf("%2.f min",tmin);
+    printf("%2.f hrs", thrs);
+    printf(" %2.f min",tmin);
     printf(" %d sec", time%60); 
 
     return 0;
