@@ -18,10 +18,7 @@ int main(void){
         tmin = tmin-60;
         thrs++;
     }
-
-    printf("%2.f hrs", thrs);
-    printf(" %2.f min",tmin);
-    printf(" %d sec", time%60); 
-
+    
+    printf("%2.f hrs, %2.f min, %2.f sec\n", thrs, tmin, time%60);
     return 0;
 }
