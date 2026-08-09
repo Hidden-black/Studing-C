@@ -12,7 +12,7 @@ int main() {
   d = (num) % 10;
 
   add = a + b + c + d;
-  // printf("%d %d %d %d",a,b,c,d)
+  //  printf("%d %d %d %d", a, b, c, d);
   printf("Sum of All Digits: %d", add);
   return 0;
 }
