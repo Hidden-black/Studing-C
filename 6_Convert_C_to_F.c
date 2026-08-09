@@ -10,10 +10,10 @@ int main(void)
 
     printf("---- Celsius To Fahrenheit ----\n");
     printf("Enter Temp in Celsius: ");
-    scanf("%f", &faren);
+    scanf("%f", &cels);
 
-    cels = (faren*multiply)+f_point;
+    faren = (cels*multiply)+f_point;
 
-    printf("Temp in Fharen: %.1f\n", cels);
+    printf("Temp in Fahren: %.1f\n", faren);
     return 0;
 }
