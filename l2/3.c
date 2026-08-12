@@ -3,13 +3,13 @@
 #define multi (9.0f / 5.0f)
 
 int main() {
-  float fahren, cels;
+    float fahren, cels;
 
-  printf("Enter the temp in Cels:");
-  scanf("%f", &cels);
+    printf("Enter the temp in Cels:");
+    scanf("%f", &cels);
 
-  fahren = cels * multi + fpoint;
+    fahren = cels * multi + fpoint;
 
-  printf("Temperate is %f *F\n", fahren);
-  return 0;
+    printf("Temperate is %f *F\n", fahren);
+    return 0;
 }

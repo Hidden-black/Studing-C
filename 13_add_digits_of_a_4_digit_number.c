@@ -2,17 +2,18 @@
 
 int main() {
 
-  int num, a, b, c, d, add;
-  printf("Enter a 4 Digit Number: ");
-  scanf("%d", &num);
+    int num, a, b, c, d, add;
+    a = b = c = d = 0;
+    printf("Enter a 4 Digit Number: ");
+    scanf("%d", &num);
 
-  a = (num / 1000) % 10;
-  b = (num / 100) % 10;
-  c = (num / 10) % 10;
-  d = (num) % 10;
+    a = (num / 1000) % 10;
+    b = (num / 100) % 10;
+    c = (num / 10) % 10;
+    d = (num) % 10;
 
-  add = a + b + c + d;
-  //  printf("%d %d %d %d", a, b, c, d);
-  printf("Sum of All Digits: %d", add);
-  return 0;
+    add = a + b + c + d;
+    //  printf("%d %d %d %d", a, b, c, d);
+    printf("Sum of All Digits: %d\n", add);
+    return 0;
 }
