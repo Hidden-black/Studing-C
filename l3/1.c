@@ -1,16 +1,15 @@
 #include <stdio.h>
 
+struct Student {
+    int rollNo;
+    char name[30];
+    int marks[3];
+};
+
 int main() {
 
-    signed int var;
-    printf("Enter a number: ");
-    scanf("%d", &var);
+    struct Student value[5];
 
-    if (var % 2 == 0) {
-        printf("The number is Even\n");
-        return 0;
-    } else {
-        printf("The number is Odd\n");
-        return 0;
-    }
+    for (int i = 0; i < 5; i++) {
+    };
 }

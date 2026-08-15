@@ -9,11 +9,11 @@ struct Employee {
 
 int main() {
 
-    struct Employee value[3];
-    for (int i = 0; i < 3; i++) {
+    struct Employee value[5];
+    for (int i = 0; i < 5; i++) {
 
         printf("\n------VALUE %d------\n", i + 1);
-        printf("Enter Empid:");
+        printf("Enter Empid: ");
         scanf("%d", &value[i].empid);
         printf("Enter Name: ");
         scanf("%s", value[i].name);
@@ -24,7 +24,7 @@ int main() {
     };
 
     printf("\n\n_________________________\n\n");
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 5; i++) {
         int totalsalary = value[i].basicsalary + value[i].bonus;
         printf("Empid: %d   EmpName:  %s   TotalSalary: %d\n", value[i].empid,
                value[i].name, totalsalary);
