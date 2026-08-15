@@ -25,11 +25,15 @@ int main() {
     };
 
     printf("\n\n_________________________\n\n");
+    int Tprice[5];
     for (int i = 0; i < 5; i++) {
-        printf("ProductID: %d   ProductName:  %s     Price: %d\n      "
-               "Quantity: %d      Price:  %d",
+        printf("ProductID: %d   ProductName:  %s     Price: %d     Quantity: "
+               "%d     Price:  %d\n",
                value[i].proid, value[i].name, value[i].price, value[i].quantity,
-               value[i].price * value[i].quantity);
+               Tprice[i] = value[i].price * value[i].quantity);
     }
+
+    printf("\n\nTotal bill: %d\n\n",
+           Tprice[0] + Tprice[1] + Tprice[2] + Tprice[3] + Tprice[4]);
     return 0;
 }
