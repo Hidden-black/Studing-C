@@ -1,3 +1,1 @@
 # Studing C
-
-test
