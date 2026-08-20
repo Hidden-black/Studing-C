@@ -10,10 +10,20 @@ int main() {
     y = (float)x;
 
     printf("%d %f\n", x, y);
-    printf("%9lf\n", 22.0f / 7.0f);
+    printf("%9lf\n", 22.0 / 7.0);
 
-    int a = 42;
-    char b = (char)a;
+    //    int a = 42;
+    //    char b = (char)a;
 
-    printf("%c\n", b);
+    //    printf("%c\n", b);
+    int a = 20;
+    int b = 5;
+    if (a == 10 + 15 && b < 10) {
+        printf("True: %d %d\n", a, b);
+    } else {
+        printf("False: %d %d\n", a, b);
+        return 0;
+    }
+
+    int K, num;
 }
