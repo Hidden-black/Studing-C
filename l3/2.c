@@ -17,7 +17,7 @@ int main() {
         scanf("%d", &values[i].Empid);
 
         printf("Enter Employee Name: ");
-        scanf("%s", values[i].name);
+        scanf("%29s", values[i].name);
 
         printf("Enter Basic Salary: ");
         scanf("%f", &values[i].basicSalary);

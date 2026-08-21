@@ -15,7 +15,7 @@ int main() {
         scanf("%d", &value[i].RollNo);
 
         printf("Enter the Name: ");
-        scanf("%s", value[i].Name);
+        scanf("%29s", value[i].Name);
 
         printf("Enter English Marks: ");
         scanf("%d", &value[i].Marks[0]);
