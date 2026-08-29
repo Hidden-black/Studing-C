@@ -10,7 +10,8 @@ int main() {
 
     struct Student value[3];
 
-    for (int i = 0; i < 3; i++) {
+    for (int i = 0; i < 3; i++)
+        {
         printf("Enter the RollNo: ");
         scanf("%d", &value[i].RollNo);
 
@@ -25,7 +26,8 @@ int main() {
 
         printf("Enter Maths Marks: ");
         scanf("%d", &value[i].Marks[2]);
-    }
+    
+        }
 
     for (int i = 0; i < 3; i++) {
 
