@@ -17,5 +17,6 @@ int main() {
         printf("Neither vowel, consonant, nor digit\n");
     }
 
+    printf("Done");
     return 0;
 }
