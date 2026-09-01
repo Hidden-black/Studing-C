@@ -29,6 +29,6 @@ int main() {
         printf("Saturday\n");
         break;
     default:
-        printf("Please Enter A Single number! \n");
+        printf("Please Enter A Number From 1 To 7 \n");
     }
 }
