@@ -1,5 +1,6 @@
 #include <math.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void) {
 
@@ -16,8 +17,10 @@ int main(void) {
         arm += pow(digit, i);
     }
 
-    if (num == arm) {
-    }
+    digit = atoi(num);
 
-    printf("%d %d\n", i, arm);
+    printf("%d %d %d\n", i, arm, digit);
+
+    for (int wi = 0; digit == arm; wi++) {
+    }
 }
