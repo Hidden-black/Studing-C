@@ -21,7 +21,6 @@ int main(void) {
     thrs++;
   }
 
-
   printf("%2.f hrs, %d min, %d sec\n", thrs, tmin, time % 60);
   return 0;
 }
