@@ -14,7 +14,6 @@ int main(void) {
             max = num[i];
         } else if (num[i] < min) {
             min = num[i];
-
         }
     }
 
