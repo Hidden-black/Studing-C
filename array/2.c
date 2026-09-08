@@ -11,7 +11,7 @@ int main() {
     }
 
     int low = b[0], high = sizeof(b) / sizeof(b[0]);
-    int mid = high / 2, to_find = 30;
+    int mid = high / 2, to_find = 10002;
 
     while (low <= high) {
         mid = low + (high - low) / 2;
