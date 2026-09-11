@@ -9,9 +9,11 @@ int main() {
     for (int i = 0; i < 10000; i++) {
         b[i - 1] = i;
     }
-
+    signed int to_find;
+    printf("To_find: ");
+    scanf("%d", &to_find);
     int low = b[0], high = sizeof(b) / sizeof(b[0]);
-    int mid = high / 2, to_find = 10002;
+    int mid = high / 2;
 
     while (low <= high) {
         mid = low + (high - low) / 2;
