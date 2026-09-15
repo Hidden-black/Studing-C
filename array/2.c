@@ -23,10 +23,10 @@ int main() {
             return 0;
         } else if (b[mid] < to_find) {
             low = mid + 1;
-            printf("mid < find\n");
-        } else if (b[mid] > to_find) {
+            printf("mid < find, %d\n", 0 [b]);
+        } else if (mid[b] > to_find) {
             high = mid - 1;
-            printf("high < to_find\n");
+            printf("high < to_find, %d\n", 0 [b]);
         } else {
             printf("not here\n");
         }
