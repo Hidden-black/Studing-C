@@ -5,7 +5,7 @@
 #define max_num 100
 
 int secretnum;
-
+static int test = 10;
 void numgen(void);
 void newnum(void);
 void readgues(void);
@@ -37,10 +37,18 @@ void readgues(void) {
         if (guess == secretnum) {
             printf("You won in %d guesses!\n\n", numgess);
             return;
-        } else if (guess < secretnum) {
+        } else if ((guess < secretnum) && secretnum - guess >= 20) {
             printf("Too low\n");
-        } else if (guess > secretnum) {
+            continue;
+        } else if (guess > secretnum && (guess - secretnum >= 20)) {
             printf("Too high\n");
+            continue;
+        } else if ((guess < secretnum)) {
+            printf("Low\n");
+            continue;
+        } else if (guess > secretnum) {
+            printf("High\n");
+            continue;
         }
     }
 }
